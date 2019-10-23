@@ -1,6 +1,10 @@
-body {
-  background: blue;
-  color: yellow;
-  border: 5px solid orange; }
+.container {
+  border: 1px solid red; }
+
+.row {
+  border: 1px solid blue; }
+
+.row > * {
+  border: 2px solid green; }
 
 /*# sourceMappingURL=estilos.css.map */
