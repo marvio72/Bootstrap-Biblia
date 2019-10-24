@@ -7,4 +7,18 @@
 .row > * {
   border: 3px solid green; }
 
+h6 {
+  margin-bottom: 10px; }
+
+p {
+  font-size: 0.8rem;
+  color: #c0cac0; }
+
+.icono {
+  padding: 5px 20px; }
+
+.fa-coffee {
+  font-size: 2rem;
+  color: #687c68; }
+
 /*# sourceMappingURL=estilos.css.map */
