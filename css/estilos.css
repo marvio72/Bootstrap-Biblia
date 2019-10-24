@@ -7,8 +7,4 @@
 .row > * {
   border: 3px solid green; }
 
-@media(min-width: 768px) {
-  html {
-    font-size: 30px; } }
-
 /*# sourceMappingURL=estilos.css.map */
