@@ -1,13 +1,6 @@
-.container {
-  border: 1px solid red; }
-
-.row {
-  border: 1px solid blue; }
-
-.row > * {
-  border: 3px solid green; }
-
-.bg-primary {
-  background-color: #2aa1c9 !important; }
+.servicios > * {
+  background: #711225;
+  border: 1px solid white;
+  color: white; }
 
 /*# sourceMappingURL=estilos.css.map */
