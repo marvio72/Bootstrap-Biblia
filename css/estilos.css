@@ -1,5 +1,6 @@
 .servicios {
-  border: 1px solid #c0cac0; }
+  border: 1px solid #c0cac0;
+  height: 250px; }
 
 .servicios > * {
   border: 1px solid #711225; }
