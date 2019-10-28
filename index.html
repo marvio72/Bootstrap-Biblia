@@ -16,28 +16,33 @@
 </head>
 <body>
   
-  <button type="button" class="btn btn-primary">Button</button>
-  <input type="submit" class="btn btn-primary" value="input">
-  <a href="#" class="btn btn-primary">Enlace</a>
+   <div class="container">
+     <div class="row p-4 justify-content-center">
+       <article class="col-sm-8">
+         <div class="border rounder p-4 shadow-sm text-center">
+           <h2>Servicios</h2>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto quaerat esse iste illo repellat et amet atque unde dicta, corrupti, quas cumque possimus labore dolor ex nam mollitia ea repellendus aliquam maiores alias. Fugiat consequatur quaerat ducimus quos praesentium impedit beatae ut, sit iusto? Laudantium, est totam! Magnam, et eveniet!</p>
 
-  <section class="container">
-    <div class="row p-4">
-      <article class="col-sm-6">
-        <div class="border rounded p-4 shadow-sm text-center">
-          <h2>Servicios</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolorem! Ad, ab nostrum eius sint, odit amet officia ipsam distinctio eos consectetur enim provident veniam dolorem, accusantium ducimus temporibus impedit.</p>
-          <button type="submit" class="btn btn-outline-primary btn-lg btn-block">Ver Información</button>
-        </div>
-      </article>
-      <article class="col-sm-6">
-        <div class="border rounded p-4 shadow-sm text-center">
-          <h2>Servicios</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolorem! Ad, ab nostrum eius sint, odit amet officia ipsam distinctio eos consectetur enim provident veniam dolorem, accusantium ducimus temporibus impedit.</p>
-          <button type="submit" class="btn btn-outline-secondary btn-sm">Ver Información</button>
-        </div>
-      </article>
-    </div>
-  </section>
+           <button type="submit" class="btn btn-info" data-toggle="collapse" data-target="#victima" aria-expanded="false" aria-controls="victima">Ver documentación</button>
+           <div class="collapse show" id="victima">
+             <div class="my-3 p-3 rounded bg-success text-white text-left">
+               <h3 class="text-uppercase">pasos para inscribirse</h3>
+               <ol>
+                 <li>Iniciar sesión</li>
+                 <li>Ir a panel de control</li>
+                 <li>Descargar ficha</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque ipsa quos dolorem id eum, at ipsum, rerum harum, iusto aliquid in quo possimus. Eius quos nostrum veritatis eligendi dignissimos esse tempora maxime sed. Voluptate ab illo tempore iste consequuntur impedit?</p>
+                <p class="text-center">
+                 <a role="button" href="#victima" class="btn btn-secondary" data-toggle="collapse"  aria-expanded="true">Cerrar</a>
+                </p>
+              </div>
+           </div>
+         </div>
+       </article>
+
+     </div>
+   </div>
 
   <!-- ARCHIVOS BOOTSTRAP JAVASCRIPT -->
   <script src="js/jquery-3.4.1.min.js"></script>
