@@ -3,7 +3,19 @@
 
 .btn-primary {
   background-color: #FF401C !important;
-  border-color: #FF401C !important; }
+  border-color: #b51d00 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e82500 !important; }
+
+.btn-primary:active {
+  background-color: #b51d00 !important;
+  border-color: #821500 !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important; }
 
 .text-primary {
   color: #FF401C !important; }
