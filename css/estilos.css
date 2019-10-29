@@ -23,8 +23,16 @@
 html {
   font-size: 13px; }
 
+body {
+  color: #44484a;
+  font-family: "Open Sans", sans-serif !important; }
+
 .card:hover {
   -webkit-box-shadow: 0 0 10px rgba(77, 71, 71, 0.63);
           box-shadow: 0 0 10px rgba(77, 71, 71, 0.63); }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } }
 
 /*# sourceMappingURL=estilos.css.map */
