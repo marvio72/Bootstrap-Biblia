@@ -1,3 +1,13 @@
+.bg-primary {
+  background-color: #FF401C !important; }
+
+.btn-primary {
+  background-color: #FF401C !important;
+  border-color: #FF401C !important; }
+
+.text-primary {
+  color: #FF401C !important; }
+
 html {
   font-size: 13px; }
 
