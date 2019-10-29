@@ -1,4 +1,8 @@
 html {
   font-size: 13px; }
 
+.card:hover {
+  -webkit-box-shadow: 0 0 10px rgba(77, 71, 71, 0.63);
+          box-shadow: 0 0 10px rgba(77, 71, 71, 0.63); }
+
 /*# sourceMappingURL=estilos.css.map */
